@@ -3,6 +3,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import NextLink from "next/link";
+import { styled } from "@nextui-org/react"
 
 const preventDefault = (event) => event.preventDefault();
 
@@ -10,7 +11,7 @@ export default function Nav() {
   return (
     <Box
     sx={{
-            margin:'50px',
+      boxSizing: "border-box"
       
     
           }}
